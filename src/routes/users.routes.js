@@ -1,5 +1,4 @@
 import {Router} from 'express'
-import {pool} from '../db.js'
 import {updateUser,deleteUser,createUser,getUser, getUsers} from '../controllers/users.controllers.js'
 
 const router = Router();
